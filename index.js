@@ -1,31 +1,31 @@
-const reset = "\033[0m";
+const reset = "\x1b[0m";
 
-const red = "\033[31m";
-const yellow = "\033[33m";
-const green = "\033[32m";
-const cyan = "\033[36m";
-const blue = "\033[34m";
-const magenta = "\033[35m";
-const white = "\033[37m";
-const black = "\033[30m";
+const red = "\x1b[31m";
+const yellow = "\x1b[33m";
+const green = "\x1b[32m";
+const cyan = "\x1b[36m";
+const blue = "\x1b[34m";
+const magenta = "\x1b[35m";
+const white = "\x1b[37m";
+const black = "\x1b[30m";
 
-const bgred = "\033[41m";
-const bgyellow = "\033[43m";
-const bggreen = "\033[42m";
-const bgcyan = "\033[46m";
-const bgblue = "\033[44m";
-const bgmagenta = "\033[45m";
-const bgwhite = "\033[47m";
-const bgblack = "\033[40m";
+const bgred = "\x1b[41m";
+const bgyellow = "\x1b[43m";
+const bggreen = "\x1b[42m";
+const bgcyan = "\x1b[46m";
+const bgblue = "\x1b[44m";
+const bgmagenta = "\x1b[45m";
+const bgwhite = "\x1b[47m";
+const bgblack = "\x1b[40m";
 
-const bold = "\033[1m";
-const italic = "\033[3m";
-const underline = "\033[4m";
-const strikethrough = "\033[9m";
+const bold = "\x1b[1m";
+const italic = "\x1b[3m";
+const underline = "\x1b[4m";
+const strikethrough = "\x1b[9m";
 
-const blink = "\033[5m";
-const inverse = "\033[7m";
-const hidden = "\033[8m";
+const blink = "\x1b[5m";
+const inverse = "\x1b[7m";
+const hidden = "\x1b[8m";
 
 class Format {
 	static reset = reset;

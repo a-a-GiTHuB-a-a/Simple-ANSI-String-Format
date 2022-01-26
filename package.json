@@ -1,0 +1,15 @@
+{
+  "name": "simple-ansi-string-format",
+  "version": "1.4.1",
+  "description": "An easy way to format strings using the power of ANSI escape codes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "format",
+    "ansi"
+  ],
+  "author": "RahulChoubey1",
+  "license": "ISC"
+}
